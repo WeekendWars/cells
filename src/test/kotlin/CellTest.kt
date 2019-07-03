@@ -52,7 +52,7 @@ internal class CellTest {
         Thread.sleep(REGENERATION_DELAY + TRANSFER_DELAY + 100)
 
         Assertions.assertTrue(cell2.getPower() == 104)
-        Assertions.assertTrue(cell.getPower()== 100)
+        Assertions.assertTrue(cell.getPower() == 100)
     }
 
     @Test
